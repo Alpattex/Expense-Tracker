@@ -77,3 +77,26 @@ function addExpense(event) {
     // Render expenses
     renderExpenses();
 }
+
+// Function to delete expense
+function deleteExpense(event) {
+    if (event.target.classList.contains("delete-btn")) {
+  
+        // Get expense index from data-id attribute
+        const expenseIndex =
+            parseInt(event.target.getAttribute("data-id"));
+  
+        // Remove expense from expenses array
+        expenses.splice(expenseIndex, 1);
+  
+        // Render expenses
+        renderExpenses();
+    }
+}
+  
+// Add event listeners
+expenseForm.addEventListener("submit", addExpense);
+expenseList.addEventListener("click", deleteExpense);
+  
+// Render initial expenses on page load
+renderExpenses();
