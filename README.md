@@ -15,7 +15,7 @@ The Expense Tracker Web App is a simple tool designed to help you keep track of 
 
 ## Demo
 
-[Link to Live Demo](your-live-demo-url)
+[Link to Live Demo](https://alpattex.github.io/Expense-Tracker/)
 
 ## Getting Started
 
@@ -49,7 +49,3 @@ Contributions are welcome! If you have ideas for improvements, open an issue or 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- [Font Awesome](https://fontawesome.com/) for the delete icon.
